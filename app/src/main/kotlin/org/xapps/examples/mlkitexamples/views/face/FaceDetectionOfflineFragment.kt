@@ -21,7 +21,7 @@ class FaceDetectionOfflineFragment @Inject constructor() : RecognitionFragment()
     override suspend fun detections(): Flow<List<Detection>> = faceDetection.detections()
 
     override fun data(info: List<Detection>): String? {
-        TODO("Not yet implemented")
+        return null
     }
 
 }
