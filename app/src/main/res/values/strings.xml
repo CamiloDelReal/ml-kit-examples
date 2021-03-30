@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ML Kit Examples</string>
+    <string name="empty">" "</string>
+    <string name="offline">Offline</string>
+    <string name="online">Online</string>
+    <string name="text_recognition">Text Recognition</string>
+    <string name="barcode_scanner">Barcode Scanner</string>
+    <string name="face_detection">Face Detection</string>
+    <string name="permissions_granted">All permissions granted</string>
+    <string name="permissions_not_granted">All required permissions weren\'t accepted</string>
+    <string name="error_requiresting_permissions">Error requesting permissions: %s</string>
+    <string name="error_binding_camera_to_lifecycle">Error captured while binding image analyzer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="image_labeling">Image Labeling</string>
+</resources>

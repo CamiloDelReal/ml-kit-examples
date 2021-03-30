@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_main"
+    app:startDestination="@id/textRecognitionOfflineFragment">
+
+    <fragment
+        android:id="@+id/textRecognitionOfflineFragment"
+        android:name="org.xapps.examples.mlkitexamples.views.text.TextRecognitionOfflineFragment"
+        android:label="@string/text_recognition"
+        tools:layout="@layout/fragment_preview_and_detection_view" />
+    <fragment
+        android:id="@+id/barcodeScannerOfflineFragment"
+        android:name="org.xapps.examples.mlkitexamples.views.barcode.BarcodeScannerOfflineFragment"
+        android:label="@string/barcode_scanner"
+        tools:layout="@layout/fragment_barcode_scanner_offline" />
+    <fragment
+        android:id="@+id/barcodeScannerOnlineFragment"
+        android:name="org.xapps.examples.mlkitexamples.views.barcode.BarcodeScannerOnlineFragment"
+        android:label="@string/barcode_scanner" />
+    <fragment
+        android:id="@+id/textRecognitionOnlineFragment"
+        android:name="org.xapps.examples.mlkitexamples.views.text.TextRecognitionOnlineFragment"
+        android:label="@string/text_recognition" />
+    <fragment
+        android:id="@+id/faceDetectionOfflineFragment"
+        android:name="org.xapps.examples.mlkitexamples.views.face.FaceDetectionOfflineFragment"
+        android:label="@string/face_detection" />
+    <fragment
+        android:id="@+id/imageLabelingOfflineFragment"
+        android:name="org.xapps.examples.mlkitexamples.views.imagelabeling.ImageLabelingOfflineFragment"
+        android:label="@string/image_labeling"
+        tools:layout="@layout/fragment_image_labeling_offline" />
+</navigation>
