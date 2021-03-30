@@ -1,7 +1,6 @@
-# WeatherX
-Simple open source android application to get weather information
+# ML Kit Examples
+Android application to show some examples using ML Kit
 
-<img src="https://github.com/CamiloDelReal/project-weather-x/blob/develop/artwork/icons/logo.png" />
 
 ### Features
 - Offline detection
@@ -29,8 +28,8 @@ Simple open source android application to get weather information
 
 ### Screenshots
 <p float="left">
-<img src="https://github.com/CamiloDelReal/ml-kit-examples/blob/develop/screenshots/text-recognition.jpg" width="30%" height="30%" />
-<img src="https://github.com/CamiloDelReal/ml-kit-examples/blob/develop/screenshots/barcode-scanner.jpg" width="30%" height="30%" />
-<img src="https://github.com/CamiloDelReal/ml-kit-examples/blob/develop/screenshots/face-detection.jpg" width="30%" height="30%" />
-<img src="https://github.com/CamiloDelReal/ml-kit-examples/blob/develop/screenshots/image-labeling.jpg" width="30%" height="30%" />
+<img src="https://github.com/CamiloDelReal/ml-kit-examples/blob/master/screenshots/text-recognition.jpg" width="30%" height="30%" />
+<img src="https://github.com/CamiloDelReal/ml-kit-examples/blob/master/screenshots/barcode-scanner.jpg" width="30%" height="30%" />
+<img src="https://github.com/CamiloDelReal/ml-kit-examples/blob/master/screenshots/face-detection.jpg" width="30%" height="30%" />
+<img src="https://github.com/CamiloDelReal/ml-kit-examples/blob/master/screenshots/image-labeling.jpg" width="30%" height="30%" />
 </p>
